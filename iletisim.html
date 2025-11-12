@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> İletişim </title>
+    <!-- css bağlama -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header bölümü -->
+    <header>
+        <h1>Kahve Dünyası</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="kahveler.html">Kahve Çeşitleri</a>
+            <a href="hakkimizda.html">Hakkımızda</a>
+            <a href="iletisim.html">İletişim</a>
+        </nav>
+    </header>
+
+    <section class="iletisim" id="iletisim">
+        <h1>Bizimle İletişime Geçin</h1>
+        <p>Görüş, öneri veya sorularınız için bizimle iletişime geçebilirsiniz. Size en kısa sürede dönüş yapacağız.</p>
+
+        <div class="iletisim-container">
+            <!-- 🗺️ Harita -->
+            <div class="iletisim-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.3478267952824!2d30.534!3d37.649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c4bb2c00bb00cf%3A0x31c3ef8b7c9b95c!2sAğlasun%20MYO!5e0!3m2!1str!2str!4v1698765432109"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- ✉️ Form -->
+            <form class="iletisim-form" action="#" method="post">
+                <label for="isim">Adınız Soyadınız</label>
+                <input type="text" id="isim" name="isim" placeholder="Adınızı giriniz" required>
+
+                <label for="email">E-posta</label>
+                <input type="email" id="email" name="email" placeholder="E-posta adresiniz" required>
+
+                <label for="mesaj">Mesajınız</label>
+                <textarea id="mesaj" name="mesaj" rows="5" placeholder="Mesajınızı yazınız..." required></textarea>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- footer bölümü -->
+    <footer style="text-align: center;">
+        <p>Kahve Dünyası | Tüm hakları saklıdır.</p>
+        <p>Bu site eğitim amaçlı hazırlanmıştır.</p>
+        <p>Hazırlayan: Gülcan Atilla | 33 </p>
+        <p>E-posta: gulcanatilla33@gmail.com </p>
+    </footer>
+
+
+    <!-- javaScript bağlama -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
